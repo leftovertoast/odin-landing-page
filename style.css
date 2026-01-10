@@ -1,0 +1,33 @@
+body {
+    font-family: 'Roboto';
+    background-color: #1f2937;
+}
+
+a {
+    color: #f9faf8;
+    text-decoration: none;
+}
+
+.header {
+    background-color: #1f2937;
+    color: #f9faf8;
+    width 100%;
+    padding: 0px;
+    gap: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+}
+
+.Header-Logo {
+    font-weight: 900;
+    font-size: 24px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    padding: 6px; 
+    gap: 20px;
+}
