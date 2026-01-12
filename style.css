@@ -31,3 +31,44 @@ ul {
     padding: 6px; 
     gap: 20px;
 }
+
+.blue-one{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.awesome-headline {
+    color: #f9faf8;
+    font-weight: 900;
+    font-size: 48px;
+    margin-bottom: 0px;
+}
+
+.left-one-text {
+    color: #E5E7EB;
+    font-size: 18px;
+    margin: 15px;
+    padding: 0px;
+    gap: 0;
+    max-width: 150px;
+}
+
+.signup {
+    margin-top: 10px;
+    background-color: #3882f6;
+    color:#E5E7EB;
+    border-radius: 10px;
+    font-weight: 600;
+    padding:10px;
+    width: 115px;
+    border-style: none;
+}
+
+.right-side-one{
+    background-color:rgb(162, 162, 162);
+    width: 500px;
+    height: 250px;
+    color:#f9faf8;
+    margin: 50px;
+}
