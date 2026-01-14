@@ -20,9 +20,51 @@ a {
     align-items: center;
 }
 
-.header-links{
+.header-links {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     gap: 20px;
+}
+
+.sec-one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.S1L {
+    max-width: 400px;
+    flex-wrap: wrap; 
+}
+.title-text {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 0px;
+}
+
+.title-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#signup-one { 
+    background-color: #3882F6;
+    border-style: none;
+    border-radius: 4pt;
+    width: 80px;
+    padding: 8px;
+    color: #F9FAF8;
+    font-weight: 700;
+}
+
+.image-placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 500px;
+    background-color: #2f3e54;
+    color: #F9FAF8;
 }
