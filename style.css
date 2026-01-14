@@ -9,6 +9,13 @@ a {
     font-size: 18px;
 }
 
+img {
+    height: 120px;
+    width: 120px;
+    border: 3pt solid #3882F6;
+    border-radius: 8pt;
+}
+
 .logo { 
     font-size: 24px;
     color: #F9FAF8;
@@ -37,6 +44,7 @@ a {
     max-width: 400px;
     flex-wrap: wrap; 
 }
+
 .title-text {
     color: #F9FAF8;
     font-size: 48px;
@@ -59,6 +67,13 @@ a {
     font-weight: 700;
 }
 
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 52px
+}
+
 .image-placeholder {
     display: flex;
     justify-content: center;
@@ -67,4 +82,23 @@ a {
     width: 500px;
     background-color: #2f3e54;
     color: #F9FAF8;
+}
+
+.sec-two {
+    background-color: #F9FAF8;
+    color: #1F2937;
+}
+
+.info-text {
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.image-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 120px;
+    flex-wrap: wrap;
 }
